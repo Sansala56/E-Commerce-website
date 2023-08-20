@@ -1,0 +1,138 @@
+.body{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	
+
+}
+
+.col1{
+	float: left;
+	width: 25%;
+	height: auto;
+	/*background-color: #004de6;*/
+	color: white;
+	
+}
+
+.col2{
+	float: right;
+	width: 75%;
+	height: auto;
+	display: block;
+}
+
+.title{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.product{
+	
+	margin-top: 50px;
+	width: 100%;
+}
+
+.navhead{
+	border:1px solid #ddd;
+	background-color: #ddd;
+	letter-spacing: 1.5px;
+	color: darkblue;
+	margin: 50px 50px 50px 50px;
+	padding: 15px 15px 15px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	height: auto;
+}
+
+.nele{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	
+}
+
+.nele a {
+  float: left;
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Change color on hover */
+.nele a:hover {
+  background-color: darkblue;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ddd;
+}
+
+/*-----------------catalog images-------------*/
+
+div.content {
+      display: inline-block;
+      margin: 25px 25px 25px 25px;
+      border: 1px solid #ccc;
+      float: center;
+      width: 300px;
+
+    }
+
+    div.content:hover {
+      border: 1px solid #777;
+      font-weight: bold;
+      width: 350px;
+      box-shadow: 3px 3px 3px 3px #595c59;
+    }
+
+  
+    div.content img {
+      width: 300px;
+      height: 300px;
+      padding:25px 25px 25px 25px;
+      float: right;
+    }
+
+    div.content img:hover {
+      width: 350px;
+      height: 350px;
+    }
+
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .row{
+      padding: 20px 20px 20px 100px;
+      margin-top: 50px;
+    }
+  
+  
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      vertical-align: center;
+      
+    }
+
+    h1{
+
+      color:  darkblue;
+      font-size: 20px;
+    }
+    
+    img.back{
+      width:100%;
+      height:300px;
+    }
